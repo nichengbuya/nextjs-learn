@@ -39,7 +39,7 @@ function UploadPage() {
             {fileList.map(i => {
                 return <div key={i.name}>{i.name}</div>
             })}
-            <button onClick={uploadFile()}>upload</button>
+            <button onClick={uploadFile}>upload</button>
         </div>
     )
 }
